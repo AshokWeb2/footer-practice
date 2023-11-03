@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-family: "Raleway", sans-serif;
+}
+footer {
+  margin: 100px;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 span {
+  color: #4e5f72;
+}
+.social-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social-links ul {
+  display: flex;
+}
+.social-icon {
+  font-size: 25px;
+}
+.contact-btn {
+  margin-top: 20px;
+  padding: 10px 60px 10px 60px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.footer-links ul li:first-child {
+  color: #4e5f72;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+}
+.form1 {
+  margin: 20px 0px 20px 0px;
+}
+
+.form {
+  padding: 10px;
+}
+.check-box {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+.bottom-btn {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  width: 130px;
+  border: 1px solid black;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom-links ul {
+  display: flex;
+}
+.footer-bottom-links ul li {
+  margin-left: 30px;
+}
